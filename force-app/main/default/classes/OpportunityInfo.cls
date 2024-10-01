@@ -149,7 +149,7 @@ public static void callExternalApi(Decimal amount, String description, Date clos
         // Set the endpoint (Xactly API URL) where the data will be sent
         req.setEndpoint('https://api.xactlycorp.com/api/estimator/v1/estimation');
         req.setMethod('POST');
-        req.setHeader('Authorization', 'Bearer 1M7HetMVlp0jzsGzodMseapmsNepxgkb'); // Replace with a valid token
+        req.setHeader('Authorization', 'Bearer '); // Replace with a valid token
         req.setHeader('Content-Type', 'application/json');
 
         // Convert the Date to DateTime and format it as needed
