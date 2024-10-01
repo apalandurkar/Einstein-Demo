@@ -13,7 +13,7 @@ public with sharing class EstimateCalculator {
                 // Set the endpoint (Xactly API URL)
                 req.setEndpoint('https://api.xactlycorp.com/api/estimator/v1/estimation');
                 req.setMethod('POST');
-                req.setHeader('Authorization', 'Bearer WSLivHKITwkdNoc8jIGLi6rISyBK6h55'); // Replace with a valid token
+                req.setHeader('Authorization', 'Bearer '); // Replace with a valid token
                 req.setHeader('Content-Type', 'application/json');
                 req.setHeader('Cookie', 'xreferer=xactly');
 
